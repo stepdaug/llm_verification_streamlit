@@ -1,0 +1,213 @@
+{
+  "demographics": {
+    "age": 31.7,
+    "sex": "Female",
+    "height": {
+      "value": 1.68,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 63.5,
+      "unit": "kg"
+    },
+    "bmi": 22.5
+  },
+  "chiefComplaint": {
+    "symptom": "Headache"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 7,
+      "unit": "years"
+    },
+    "onsetMode": "Acute",
+    "course": "Stable"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Episodic",
+    "timingPattern": "Evenings",
+    "frequency": {
+      "value": 4,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "min_value": 1,
+      "max_value": 2,
+      "unit": "days"
+    },
+    "timeToPeak": {
+      "value": 67.6,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 7,
+      "functionalImpact": "Mild"
+    },
+    "location": {
+      "laterality": "Right-sided",
+      "regions": [
+        "Frontal",
+        "Neck/Cervical"
+      ],
+      "radiation": "None"
+    },
+    "character": "Tightening"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": true,
+      "description": [
+        "Feeling sick"
+      ]
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": true,
+      "description": [
+        "Cannot tolerate light"
+      ]
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Chocolate",
+      "Weather changes"
+    ],
+    "aggravating": [
+      "Strong smells"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Sleep"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 0,
+      "unit": "per_week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "No effect",
+    "pastMedications": []
+  },
+  "contextRequirements": {
+    "type": null,
+    "value": null
+  },
+  "patientPerspectives": {
+    "perceivedCause": "Eye strain",
+    "beliefsAndConcerns": "Worried about medication side effects",
+    "treatmentExpectation": "Wants reassurance only"
+  },
+  "carePathway": {
+    "referralToNeurology": false,
+    "reason": "None"
+  },
+  "clinicalAdvice": {
+    "guidance": [
+      "Lifestyle advice: Regular sleep, hydration, and meals."
+    ]
+  },
+  "neurological_examination": "Normal"
+}

@@ -1,0 +1,34 @@
+**Patient**
+- 59-year-old male
+- BMI: 28.5
+- Main symptom: Headache
+
+**History**
+- Gradual onset; 16 years ago; Stable
+
+**Headache profile**
+- Episodic; typically afternoons
+- Location: Orbital
+- Character: Jabs
+- Frequency: 5 per day
+- Duration: 1-3 seconds
+- Time to peak: 0 minutes
+- Severity: 4/10; severe functional impact
+
+**Associated symptoms**
+- Nil
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Stress
+- Aggravating factors: None
+- Relieving factors: Sleep
+
+**Medications**
+- Acute: Paracetamol; 1 per week
+- Preventative: None

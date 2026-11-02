@@ -1,0 +1,207 @@
+{
+  "demographics": {
+    "age": 77.3,
+    "sex": "Female",
+    "height": {
+      "value": 1.56,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 60.1,
+      "unit": "kg"
+    },
+    "bmi": 24.7
+  },
+  "chiefComplaint": {
+    "symptom": "Headache"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 15,
+      "unit": "years"
+    },
+    "onsetMode": "Acute",
+    "course": "Stable"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Episodic",
+    "timingPattern": "Variable",
+    "frequency": {
+      "value": 10,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "min_value": 4,
+      "max_value": 22,
+      "unit": "hours"
+    },
+    "timeToPeak": {
+      "value": 49.5,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 5,
+      "functionalImpact": "Severe"
+    },
+    "location": {
+      "laterality": "Bilateral",
+      "regions": "Temporal",
+      "radiation": "None"
+    },
+    "character": "Tightening"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": true,
+      "description": [
+        "Jaw fatigue"
+      ]
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": true,
+      "description": [
+        "Curtain coming down"
+      ]
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Skipping meals"
+    ],
+    "aggravating": [
+      "Strong smells"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Analgesics"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Paracetamol",
+    "acuteFrequency": {
+      "value": 0,
+      "unit": "per_week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "Unknown",
+    "pastMedications": []
+  },
+  "contextRequirements": {
+    "type": null,
+    "value": null
+  },
+  "patientPerspectives": {
+    "perceivedCause": "Diet",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "None"
+  },
+  "carePathway": {
+    "referralToNeurology": true,
+    "reason": "Late onset headache (Age 62)"
+  },
+  "clinicalAdvice": {
+    "guidance": []
+  },
+  "neurological_examination": "Normal"
+}

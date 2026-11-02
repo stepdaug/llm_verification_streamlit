@@ -1,0 +1,35 @@
+**Patient**
+- 77-year-old female
+- BMI: 24.7
+- Main symptom: Headache
+
+**History**
+- Acute onset
+
+**Headache profile**
+- Variable
+- Location: Bilateral, Temporal
+- Character: Tightening
+- Frequency: 10 days per month
+- Duration: 4-22 hours
+- Time to peak: 49.5 minutes
+- Severity: 5/10; severe functional impact
+
+**Associated symptoms**
+- Feels "Jaw fatigue"
+- visual symptoms: "Curtain coming down"
+- Nil else
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Relieving factors: Analgesia
+
+**Medications**
+- Acute: Nil
+- Preventative: None
+- Past medications: None

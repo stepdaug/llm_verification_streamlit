@@ -1,0 +1,35 @@
+**Patient**
+- 47-year-old female
+- BMI: 22
+- Main symptom: Facial pain
+
+**History**
+- Onset; 1 year ago; Stable
+
+**Headache profile**
+- Continuous with exacerbations
+- Location: Strictly right-sided, Temporal, Neck/Cervical
+- Character: Pressing
+- Frequency: Every day
+- Duration: 6-12 months
+- Severity: 6/10; moderate functional impact
+
+**Associated symptoms**
+- photophobia
+- cranial autonomic symptoms: "Eye streaming"
+- Nil else
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Alcohol, Caffeine
+- Aggravating factors: None
+- Relieving factors: Sleep
+
+**Medications**
+- Acute: Ibuprofen; 1 per week
+- Preventative: None

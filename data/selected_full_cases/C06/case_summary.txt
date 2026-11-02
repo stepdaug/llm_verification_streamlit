@@ -1,0 +1,38 @@
+**Patient**
+- 59-year-old male
+- BMI: 34.1
+- Main symptom: Headache
+
+**History**
+- Gradual onset; 7 months ago; Stable
+
+**Headache profile**
+- Episodic; typically any time of day
+- Location: Bilateral, Frontal; radiates to neck
+- Character: Aching
+- Frequency: 11 days per month
+- Duration: 1-2 days
+- Time to peak: 5 hours
+- Severity: 5/10; moderate functional impact
+
+**Associated symptoms**
+- Nil
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Sleep deprivation
+- Aggravating factors: None
+- Relieving factors: Sleep
+
+**Medications**
+- Acute: None
+- Preventative: None
+- Past medications: None
+
+**Other clinical information**
+- Neurological examination: Normal

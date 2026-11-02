@@ -1,0 +1,11 @@
+{
+  "validation_case_id": "C02",
+  "case_id": "case_0705",
+  "gt_diagnosis": "Hemicrania Continua",
+  "gt_ct": "Do not perform",
+  "gt_mri": "Perform",
+  "gt_lp": "Do not perform",
+  "gt_indomethacin": "",
+  "gt_codeine": "Do not use",
+  "gt_triage": ""
+}

@@ -1,0 +1,36 @@
+**Patient**
+- 24-year-old female
+- BMI: 24.6
+- Main symptom: Headache
+
+**History**
+- Gradual onset; 4 months ago; Slowly worsening
+
+**Headache profile**
+- Continuous; typically upon awakening
+- Location: Bilateral, Occipital, Temporal; radiates to neck
+- Character: "Expansive"
+- Frequency: 7 days per month
+- Duration: 2-12 hours
+- Time to peak: 59 minutes
+- Severity: 5/10; moderate functional impact
+
+**Associated symptoms**
+- vomiting: Morning vomiting without nausea
+- Nil else
+
+**Other symptoms**
+- cognitive symptoms: Acting strangely/out of character; Gradual onset; Continuous; for 4 months
+- Nil else
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Sneezing
+- Aggravating factors: None
+- Relieving factors: Rest
+
+**Medications**
+- Acute: Ibuprofen; 1 per week
+- Preventative: None

@@ -1,0 +1,236 @@
+{
+  "demographics": {
+    "age": 20.3,
+    "sex": "Male",
+    "height": {
+      "value": 1.69,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 77.4,
+      "unit": "kg"
+    },
+    "bmi": 27.1
+  },
+  "chiefComplaint": {
+    "symptom": "Headache"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 7,
+      "unit": "years"
+    },
+    "onsetMode": "Acute",
+    "course": "Slowly worsening"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Continuous with exacerbations",
+    "timingPattern": "",
+    "frequency": {
+      "value": 2,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "min_value": 3,
+      "max_value": 5,
+      "unit": "hours"
+    },
+    "timeToPeak": {
+      "value": 18.6,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 3,
+      "functionalImpact": "Mild"
+    },
+    "location": {
+      "laterality": "Bilateral",
+      "regions": [
+        "Neck/Cervical",
+        "Occipital"
+      ],
+      "radiation": "To eye"
+    },
+    "character": "Pounding"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": true,
+      "description": [
+        "Vision greying out for seconds when bending over"
+      ]
+    },
+    "tinnitus": {
+      "present": true,
+      "description": [
+        "Whooshing sound in ears"
+      ]
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Sleep deprivation",
+      "Skipping meals"
+    ],
+    "aggravating": [
+      "Strong smells"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Rest"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 0,
+      "unit": "per_week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "No effect",
+    "pastMedications": [
+      {
+        "name": "Propranolol",
+        "reasonStopped": "Cost",
+        "sideEffects": "None"
+      },
+      {
+        "name": "Candesartan",
+        "reasonStopped": "Side effects",
+        "sideEffects": "Brain fog"
+      }
+    ]
+  },
+  "contextRequirements": [
+    {
+      "target": "physical_exam",
+      "detail": "Fundoscopy: Bilateral papilloedema."
+    },
+    {
+      "target": "physical_exam",
+      "detail": "Neurology: Abducens nerve palsy (failure to abduct eye)."
+    },
+    {
+      "target": "investigation_findings",
+      "detail": "MRV: Bilateral transverse sinus stenosis."
+    },
+    {
+      "target": "investigation_findings",
+      "detail": "MRI: Empty sella turcica and distension of optic nerve sheaths."
+    }
+  ],
+  "patientPerspectives": {
+    "perceivedCause": "High blood pressure",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "None"
+  },
+  "carePathway": {
+    "referralToNeurology": false,
+    "reason": "None"
+  },
+  "clinicalAdvice": {
+    "guidance": []
+  },
+  "neurological_examination": "Normal"
+}

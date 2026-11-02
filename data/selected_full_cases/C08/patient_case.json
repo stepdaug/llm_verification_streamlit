@@ -1,0 +1,220 @@
+{
+  "demographics": {
+    "age": 63.1,
+    "sex": "Female",
+    "height": {
+      "value": 1.57,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 85.0,
+      "unit": "kg"
+    },
+    "bmi": 34.5
+  },
+  "chiefComplaint": {
+    "symptom": "Headache",
+    "diagnosis_label": "Headache due to Brain Tumour"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 6,
+      "unit": "months"
+    },
+    "onsetMode": "Gradual",
+    "course": "Slowly worsening"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Continuous with exacerbations",
+    "timingPattern": "",
+    "frequency": {
+      "value": 6,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "value": 8,
+      "unit": "hours",
+      "min_value": 3,
+      "max_value": 24
+    },
+    "timeToPeak": {
+      "value": 43.4,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 5,
+      "functionalImpact": "Mild"
+    },
+    "location": {
+      "laterality": "Bilateral",
+      "regions": [
+        "Frontal",
+        "Temporal"
+      ],
+      "radiation": "To eye"
+    },
+    "character": "Tightening"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": true,
+      "description": [
+        "Left arm weakness"
+      ],
+      "onsetMode": "Gradual",
+      "temporalPattern": "Continuous",
+      "timeSinceOnset": {
+        "value": 6,
+        "unit": "months"
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": true,
+      "description": [
+        "Night sweats"
+      ],
+      "onsetMode": "Gradual",
+      "temporalPattern": "Continuous",
+      "timeSinceOnset": {
+        "value": 6,
+        "unit": "months"
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Skipping meals"
+    ],
+    "aggravating": [
+      "Straining"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Rest"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 1,
+      "unit": "per week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "No effect",
+    "pastMedications": []
+  },
+  "contextRequirements": [
+    {
+      "target": "physical_exam",
+      "detail": "Neurology: Focal deficits consistent with patient's reported sensorimotor symptoms."
+    },
+    {
+      "target": "investigation_findings",
+      "detail": "MRI Brain: Dural-based enhancing lesion with dural tail, compressing adjacent cortex. Suggestive of Meningioma."
+    }
+  ],
+  "patientPerspectives": {
+    "perceivedCause": "None",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "None"
+  },
+  "carePathway": {
+    "referralToNeurology": true,
+    "reason": "Late onset headache (Age 62)"
+  },
+  "clinicalAdvice": {
+    "guidance": []
+  },
+  "groundTruthHidden": {
+    "highEfficacyInterventions": []
+  }
+}

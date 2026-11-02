@@ -1,0 +1,37 @@
+**Patient**
+- 31.7-year-old female
+- BMI: 22.5
+- Main symptom: Headache
+
+**History**
+- Onset 7 years ago; Stable
+
+**Headache profile**
+- Episodic; typically evenings
+- Location: Right-sided, Frontal, Neck/Cervical
+- Character: Tightening
+- Frequency: 4 days per month
+- Duration: 1-2 days
+- Time to peak: 67.6 minutes
+- Severity: 7/10; mild functional impact
+
+**Associated symptoms**
+- nausea: "Feels sick"
+- photophobia: "Cannot tolerate lights during the headache"
+- Nil else
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Chocolate, Weather changes
+- Aggravating factors: Strong smells
+- Relieving factors: Sleep
+
+**Medications**
+- Acute: None
+- Preventative: None
+- Past medications: None

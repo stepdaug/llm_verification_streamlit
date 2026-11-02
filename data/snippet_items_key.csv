@@ -1,0 +1,31 @@
+item_id,source,expected_realistic,candidate_id,case_id,diagnosis_gt,source_file,snippet_index,interval,xmin,xmax,word_count
+S05,synthetic_headache,1,H03,case_0705,Hemicrania Continua,C:\projects\headaches\patient_outputs\case_0705\simulation_conversation_cleaned.txt,7.0,,,,20
+S12,primock,1,P02,,,day1_consultation03_patient.TextGrid,,50.0,187.1463222,194.2230272,22
+S19,primock,1,P10,,,day5_consultation01_patient.TextGrid,,60.0,240.6983452,247.8787656,23
+S15,primock,1,P06,,,day2_consultation10_patient.TextGrid,,22.0,82.23693627,95.94187394,57
+S09,synthetic_headache,1,H21,case_0280,Primary Stabbing Headache,C:\projects\headaches\patient_outputs\case_0280\simulation_conversation_cleaned.txt,10.0,,,,23
+S03,synthetic_headache,1,H19,case_0515,Brain Tumour,C:\projects\headaches\patient_outputs\case_0515\simulation_conversation_cleaned.txt,3.0,,,,26
+S28,foil,0,F08,,,,,,,,19
+S20,primock,1,P11,,,day5_consultation10_patient.TextGrid,,16.0,66.79759948,74.384195,28
+S24,foil,0,F04,,,,,,,,24
+S02,synthetic_headache,1,H15,case_0639,Idiopathic Intracranial Hypertension,C:\projects\headaches\patient_outputs\case_0639\simulation_conversation_cleaned.txt,1.0,,,,42
+S26,foil,0,F06,,,,,,,,18
+S21,foil,0,F01,,,,,,,,26
+S06,synthetic_headache,1,H05,case_0654,Giant Cell Arteritis,C:\projects\headaches\patient_outputs\case_0654\simulation_conversation_cleaned.txt,7.0,,,,22
+S16,primock,1,P07,,,day3_consultation02_patient.TextGrid,,12.0,44.83550115,59.23650984,46
+S04,synthetic_headache,1,H01,case_0575,Migraine without Aura,C:\projects\headaches\patient_outputs\case_0575\simulation_conversation_cleaned.txt,18.0,,,,33
+S01,synthetic_headache,1,H08,case_0234,Migraine with Aura,C:\projects\headaches\patient_outputs\case_0234\simulation_conversation_cleaned.txt,2.0,,,,22
+S14,primock,1,P05,,,day2_consultation10_patient.TextGrid,,20.0,69.66147852,75.71179916,20
+S07,synthetic_headache,1,H07,case_0680,Brain Tumour,C:\projects\headaches\patient_outputs\case_0680\simulation_conversation_cleaned.txt,25.0,,,,23
+S30,foil,0,F12,,,,,,,,21
+S23,foil,0,F03,,,,,,,,20
+S25,foil,0,F05,,,,,,,,24
+S22,foil,0,F02,,,,,,,,19
+S10,synthetic_headache,1,H24,case_0523,SUNCT,C:\projects\headaches\patient_outputs\case_0523\simulation_conversation_cleaned.txt,5.0,,,,18
+S08,synthetic_headache,1,H10,case_0936,Tension Type Headache,C:\projects\headaches\patient_outputs\case_0936\simulation_conversation_cleaned.txt,2.0,,,,40
+S27,foil,0,F07,,,,,,,,23
+S29,foil,0,F10,,,,,,,,23
+S13,primock,1,P04,,,day1_consultation13_patient.TextGrid,,82.0,437.5870557,446.4187004,31
+S17,primock,1,P08,,,day3_consultation02_patient.TextGrid,,23.0,110.8408432,118.874151,23
+S11,primock,1,P01,,,day1_consultation03_patient.TextGrid,,8.0,20.55631264,26.548481,18
+S18,primock,1,P09,,,day5_consultation01_patient.TextGrid,,12.0,46.92045894,56.61937947,29

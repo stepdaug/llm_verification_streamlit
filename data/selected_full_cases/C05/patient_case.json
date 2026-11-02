@@ -1,0 +1,236 @@
+{
+  "demographics": {
+    "age": 48.7,
+    "sex": "Female",
+    "height": {
+      "value": 1.71,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 96.5,
+      "unit": "kg"
+    },
+    "bmi": 33.0
+  },
+  "chiefComplaint": {
+    "symptom": "Headache",
+    "diagnosis_label": "Migraine with Aura"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 3,
+      "unit": "years"
+    },
+    "onsetMode": "Acute",
+    "course": "Slowly worsening"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Episodic",
+    "timingPattern": "Upon awakening",
+    "frequency": {
+      "value": 7,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "min_value": 1,
+      "max_value": 2,
+      "unit": "days"
+    },
+    "timeToPeak": {
+      "value": 19.8,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 6,
+      "functionalImpact": "Mild"
+    },
+    "location": {
+      "laterality": "Predominantly left-sided",
+      "regions": [
+        "Occipital",
+        "Neck/Cervical"
+      ],
+      "radiation": "To eye"
+    },
+    "character": "Hammering"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": true,
+      "description": [
+        "Queasiness"
+      ]
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": true,
+      "description": [
+        "Cannot tolerate light"
+      ]
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": true,
+    "type": [
+      "Visual"
+    ],
+    "visualPhenomena": [
+      "Kaleidoscope effect"
+    ],
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": 11,
+      "unit": "minutes"
+    },
+    "duration": {
+      "value": 13,
+      "unit": "minutes"
+    },
+    "relationToHeadache": {
+      "value": -25,
+      "unit": "minutes"
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Stress",
+      "Caffeine"
+    ],
+    "aggravating": [
+      "Strong smells"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Analgesics"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 0,
+      "unit": "per week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "No effect",
+    "pastMedications": [
+      {
+        "name": "Pizotifen",
+        "reasonStopped": "Side effects",
+        "sideEffects": "Brain fog"
+      },
+      {
+        "name": "Candesartan",
+        "reasonStopped": "Cost",
+        "sideEffects": "None"
+      }
+    ]
+  },
+  "contextRequirements": {
+    "type": null,
+    "value": null
+  },
+  "patientPerspectives": {
+    "perceivedCause": "None",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "None"
+  },
+  "carePathway": {
+    "referralToNeurology": false,
+    "reason": "None"
+  },
+  "clinicalAdvice": {
+    "guidance": [
+      "Lifestyle advice: Regular sleep, hydration, and meals."
+    ]
+  },
+  "groundTruthHidden": {
+    "highEfficacyInterventions": [
+      {
+        "intervention": "Strict dietary avoidance of Caffeine",
+        "efficacy_magnitude": "High (User-specific trigger)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "validation_case_id": "C03",
+  "case_id": "case_0654",
+  "gt_diagnosis": "Giant Cell Arteritis",
+  "gt_ct": "Do not perform",
+  "gt_mri": "Clinical judgement",
+  "gt_lp": "Clinical judgement",
+  "gt_indomethacin": "Do not use",
+  "gt_codeine": "Do not use",
+  "gt_triage": "Immediate or Urgent"
+}

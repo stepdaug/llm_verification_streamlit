@@ -1,0 +1,939 @@
+{
+  "demographics": {
+    "age": 59.0,
+    "sex": "Male",
+    "height": {
+      "value": 1.83,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 96.16,
+      "unit": "kg"
+    },
+    "bmi": 28.7
+  },
+  "chiefComplaint": {
+    "symptom": "headache"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 16,
+      "unit": "years"
+    },
+    "onsetMode": "gradual",
+    "course": "stable"
+  },
+  "headacheProfile": {
+    "temporalPattern": "episodic",
+    "timingPattern": "afternoons",
+    "frequency": {
+      "value": 5,
+      "unit": "per_day"
+    },
+    "duration": {
+      "min_value": 1.0,
+      "max_value": 3.0,
+      "unit": "seconds"
+    },
+    "timeToPeak": {
+      "value": 0,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 4,
+      "functionalImpact": "severe"
+    },
+    "location": {
+      "laterality": "side-shifting",
+      "regions": [
+        "Around the eye"
+      ],
+      "radiation": "neck"
+    },
+    "character": "jabs"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "stress"
+    ],
+    "aggravating": [
+      "None"
+    ],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "sleep"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "paracetamol",
+    "acuteFrequency": {
+      "value": 1,
+      "unit": "days_per_week"
+    }
+  },
+  "patientPerspectives": {
+    "perceivedCause": "none specific",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "none specific"
+  },
+  "differential_diagnosis": [
+    {
+      "name": "Primary Stabbing Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 20.0-70.0",
+        "symptom: headache was met",
+        "character: jabs - meets requirement for stabbing, ice-pick, jabs or needle-like",
+        "cranialAutonomic: False was met",
+        "photophobia: False was met",
+        "Group 'Criterion B: Duration': Met 3/1 (Typical (<3 seconds) (matched by 'range 1.0 to 3.0 seconds'); Rare (4-120 seconds) (matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Typical (<3 seconds) | Rare (4-120 seconds) (matched by 'range 1.0 to 3.0 seconds'))",
+        "Group 'Location: Movement Pattern': Met 1/1 (Side-shifting/Variable (matched by 'side-shifting'); Fixed Location (not matched by 'side-shifting'))",
+        "Group 'Location: Region (Extratrigeminal 70%)': Met 1/1 (Extratrigeminal (not matched by 'around the eye'); Trigeminal (matched by 'around the eye'))",
+        "Group 'Criterion C: Frequency (Irregular)': Met 1/1 (Low (Few per day) (matched by '5 per_day'); Single stab (not matched by '5 per_day'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [],
+      "unknown_fields": [],
+      "incompatibility_score": 0.0
+    },
+    {
+      "name": "Hemiplegic Migraine",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 10.0-60.0",
+        "symptom: headache was met",
+        "cranialAutonomic: False was met",
+        "cutaneous: none was met",
+        "Group 'Step 2: General Aura Features': Met 2/2 (Spreads gradually (>5min) (matched by 'None None'); Relation to Headache (Before) (matched by 'None None'))"
+      ],
+      "criteria_missing": [
+        "Group 'Step 1: Determine Aura Type': Met 0/1 -> [No specific data matched]",
+        "Group 'Motor Aura': Met 0/1 -> [Reversible Weakness (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "incompatibilities": [
+        "hasAura: False is not consistent with True"
+      ],
+      "unknown_fields": [
+        "auraDetails.type"
+      ],
+      "incompatibility_score": 1.0
+    },
+    {
+      "name": "Tension Type Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-70.0",
+        "symptom: headache was met",
+        "hasAura: False was met",
+        "nausea: False was met",
+        "vomiting: False was met",
+        "cranialAutonomic: False was met",
+        "Group 'Criterion C: Features (At least 2 of 4)': Met 3/2 (1. Bilateral Location (not matched by 'side-shifting'); 2. Pressing/Tightening Quality (matched by 'jabs'); 3. Mild or Moderate Intensity (matched by '4'); 4. Not aggravated by routine activity (matched by 'none'))",
+        "Group 'Criterion D: Associated Symptoms (Max 1 Phobia)': Met 1/1 (Neither Photophobia nor Phonophobia (matched by '{'nausea': {'present': False, 'description': 'None'}, 'vomiting': {'present': False, 'description': 'None'}, 'photophobia': {'present': False, 'description': 'None'}, 'phonophobia': {'present': False, 'description': 'None'}, 'visual': {'present': False, 'description': 'None'}, 'tinnitus': {'present': False, 'description': 'None'}, 'vertigo': {'present': False, 'description': 'None'}, 'alteredSensation': {'present': False, 'description': 'None'}, 'restlessness': {'present': False, 'description': 'None'}, 'cranialAutonomic': {'present': False, 'description': 'None'}, 'jawClaudication': {'present': False, 'description': 'None'}, 'scalpTenderness': {'present': False, 'description': 'None'}, 'motorWeakness': {'present': False, 'description': 'None'}}'); Photophobia Only (not matched by '{'nausea': {'present': False, 'description': 'None'}, 'vomiting': {'present': False, 'description': 'None'}, 'photophobia': {'present': False, 'description': 'None'}, 'phonophobia': {'present': False, 'description': 'None'}, 'visual': {'present': False, 'description': 'None'}, 'tinnitus': {'present': False, 'description': 'None'}, 'vertigo': {'present': False, 'description': 'None'}, 'alteredSensation': {'present': False, 'description': 'None'}, 'restlessness': {'present': False, 'description': 'None'}, 'cranialAutonomic': {'present': False, 'description': 'None'}, 'jawClaudication': {'present': False, 'description': 'None'}, 'scalpTenderness': {'present': False, 'description': 'None'}, 'motorWeakness': {'present': False, 'description': 'None'}}'); Phonophobia Only (not matched by '{'nausea': {'present': False, 'description': 'None'}, 'vomiting': {'present': False, 'description': 'None'}, 'photophobia': {'present': False, 'description': 'None'}, 'phonophobia': {'present': False, 'description': 'None'}, 'visual': {'present': False, 'description': 'None'}, 'tinnitus': {'present': False, 'description': 'None'}, 'vertigo': {'present': False, 'description': 'None'}, 'alteredSensation': {'present': False, 'description': 'None'}, 'restlessness': {'present': False, 'description': 'None'}, 'cranialAutonomic': {'present': False, 'description': 'None'}, 'jawClaudication': {'present': False, 'description': 'None'}, 'scalpTenderness': {'present': False, 'description': 'None'}, 'motorWeakness': {'present': False, 'description': 'None'}}'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "timeToPeak: 0 minutes is not consistent with range 0.5 to 12 hours",
+        "Group 'Criterion B: Duration (30m to 7 days)': Met 0/1 -> [Duration sampling (Hours) (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Cold-stimulus Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 10.0-70.0",
+        "symptom: headache was met",
+        "precipitating: stress - meets requirement for cold weather, diving into cold water, cryotherapy or icy wind on face",
+        "character: jabs - meets requirement for stabbing, jabs or needle-like",
+        "Group 'Location (Midfrontal vs Unilateral)': Met 1/1 (Unilateral/Temporal (matched by 'around the eye'))",
+        "Group 'Laterality': Met 1/1 (Unilateral (not matched by 'side-shifting'); Diffuse/Bilateral (matched by 'side-shifting'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "painScore: 4 is not consistent with range 7 to 10",
+        "Group 'Criterion C: Duration (<30 mins)': Met 0/1 -> [Short (<30m) (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Giant Cell Arteritis",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 51.0-90.0",
+        "symptom: headache was met",
+        "laterality: side-shifting - meets requirement for right-sided, left-sided, bilateral, strictly right-sided or strictly left-sided",
+        "onsetMode: gradual - meets requirement for Acute",
+        "Group 'Systemic': Met 0/0 (Systemic features (not matched by '{'present': False, 'description': None, 'onsetMode': None, 'temporalPattern': None, 'timeSinceOnset': {'value': None, 'unit': None}}'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "regions: around the eye is not consistent with temporal or temple",
+        "Group 'Red Flag Symptoms': Met 0/2 -> [Jaw Claudication (not matched by '{'present': False, 'description': 'None'}'); Scalp Tenderness (not matched by '{'present': False, 'description': 'None'}'); Visual symptoms (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Primary Cough Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 40.0-90.0",
+        "symptom: headache was met",
+        "Group 'Time to peak': Met 1/1 (Thunderclap (matched by '0 minutes'))",
+        "Group 'Criterion D: Duration (1s - 2h)': Met 2/1 (Seconds (matched by 'range 1.0 to 3.0 seconds'); Minutes (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Seconds | Minutes (matched by 'range 1.0 to 3.0 seconds'))",
+        "Group 'Associated Symptoms (Optional)': Met 0/0 (Vertigo/Dizziness (not matched by '{'present': False, 'description': 'None'}'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "precipitating: stress is not consistent with coughing, sneezing, straining (valsalva), laughing hard or blowing nose",
+        "Group 'Location (Usually Bilateral/Posterior)': Met 1/2 -> [Posterior/Occipital (not matched by 'around the eye'); Bilateral/Holocranial (matched by 'side-shifting')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Primary Exercise Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-60.0",
+        "symptom: headache was met",
+        "Group 'Character (Pulsating)': Met 1/1 (Pulsating (matched by 'jabs'))",
+        "Group 'Contextual Factors': Met 0/0 (Hot Weather (not matched by 'stress'); High Altitude (not matched by 'stress'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "precipitating: stress is not consistent with strenuous exercise, running, heavy lifting, rowing or high intensity interval training",
+        "Group 'Criterion C: Duration (<48h)': Met 0/1 -> [Short (Minutes) (not matched by 'range 1.0 to 3.0 seconds'); Medium (Hours) (not matched by 'range 1.0 to 3.0 seconds'); Long (up to 48h) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Short (Minutes) | Medium (Hours) | Long (up to 48h) (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "External-pressure Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 10.0-80.0",
+        "symptom: headache was met",
+        "Group 'Criterion B/C: Trigger & Location Pair': Met 1/1 (Tight Hat/Band (Circumferential) (matched by 'stress'); Goggles (Orbital) (not matched by 'stress'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "character: jabs is not consistent with pressing, tightening or squeezing",
+        "Group 'Criterion D: Duration (<1 hour after removal)': Met 0/1 -> [Minutes (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Glossopharyngeal Neuralgia",
+      "criteria_met": [
+        "symptom: headache - meets requirement for Facial and throat pain",
+        "character: jabs - meets requirement for electric-shock like, shooting, stabbing or sharp"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "Group 'Location (Ear/Throat)': Met 0/1 -> [Deep Ear/Tonsil (not matched by 'around the eye')]",
+        "Group 'Triggers (Swallowing)': Met 0/1 -> [Swallowing (not matched by 'stress'); Talking/Coughing (not matched by 'stress')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Burning Mouth Syndrome (BMS)",
+      "criteria_met": [
+        "symptom: headache - meets requirement for Mouth pain",
+        "temporalPattern: episodic - meets requirement for Continuous"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "Group 'Character (Burning)': Met 0/1 -> [Burning Quality (not matched by 'jabs')]",
+        "Group 'Location (Intraoral)': Met 0/1 -> [Tip of Tongue (not matched by 'around the eye'); Lips/Palate (not matched by 'around the eye')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Reversible Cerebral Vasoconstriction Syndrome (RCVS)",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 20.0-60.0",
+        "Constraint sex: Male was met",
+        "symptom: headache was met",
+        "character: jabs - meets requirement for explosive, thunderclap or hit by bat",
+        "onsetMode: gradual - meets requirement for Sudden",
+        "temporalPattern: episodic - meets requirement for Recurrent attacks",
+        "course: stable - meets requirement for Recurrent episodes over days/weeks",
+        "timeToPeak: 0 minutes - meets requirement for range 0.0 to 1.0 minutes",
+        "Group 'Criterion C2b: Triggers': Met 3/1 (Sexual Activity (not matched by 'stress'); Exertion (not matched by 'stress'); Valsalva/Straining (matched by 'stress'); Emotion (matched by 'stress'); Bathing/Showering (matched by 'stress'); Vasoactive Substances (not matched by 'stress'))"
+      ],
+      "criteria_missing": [
+        "Group 'Criterion C1: Angiography Findings': Met 0/1 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "painScore: 4 is not consistent with range 6 to 10",
+        "timeSinceOnset: 16 years is not consistent with range 0.5 to 21 days"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Subarachnoid Haemorrhage",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-95.0",
+        "symptom: headache was met",
+        "onsetMode: gradual - meets requirement for Sudden",
+        "temporalPattern: episodic - meets requirement for Continuous",
+        "course: stable - meets requirement for Stable (Unremitting)",
+        "timeToPeak: 0 minutes - meets requirement for range 0 to 1 minutes",
+        "Group 'Associated': Met 1/0 (Vomiting (not matched by '{'present': False, 'description': 'None'}'); Exertional Onset (matched by 'stress'); Neck Stiffness (not matched by 'around the eye'))"
+      ],
+      "criteria_missing": [
+        "Group 'Aetiology Context': Met 0/1 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "timeSinceOnset: 16 years is not consistent with range 1 to 72 hours",
+        "Group 'Pain & Character': Met 1/2 -> [Max Pain (not matched by '4'); Explosive Character (matched by 'jabs')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Headache due to Brain Tumour",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-90.0",
+        "symptom: headache was met",
+        "course: stable - meets requirement for Slowly worsening",
+        "onsetMode: gradual was met",
+        "temporalPattern: episodic - meets requirement for continuous with exacerbations or continuous",
+        "character: jabs - meets requirement for bursting, banging, band-like, pressing, expansive, dull ache, throbbing, heavy weight on head, pounding, pressure sensation, tightening, vice-like or squeezing"
+      ],
+      "criteria_missing": [
+        "Group 'Step 8: MRI Investigation Findings (Mandatory)': Met 0/1 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "duration: range 1.0 to 3.0 seconds is not consistent with range 1 to 72 hours",
+        "timeSinceOnset: 16 years is not consistent with range 1 to 6 months"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Idiopathic Intracranial Hypertension (IIH)",
+      "criteria_met": [
+        "Constraint sex: Male was met",
+        "symptom: headache was met",
+        "bmi: 28.7 - meets requirement for range 24.0 to 55.0",
+        "temporalPattern: episodic - meets requirement for Continuous with exacerbations",
+        "course: stable - meets requirement for Slowly worsening",
+        "Group 'Phenotype': Met 1/1 (Migraine-like (matched by 'jabs'); Tension-like (not matched by 'jabs'))"
+      ],
+      "criteria_missing": [
+        "Group 'Exam, CSF, Imaging findings': Met 0/4 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "Constraint age: 59.0 is not within range 15.0-50.0",
+        "Group 'Specific Symptoms': Met 0/1 -> [Pulsatile Tinnitus (not matched by '{'present': False, 'description': 'None'}'); Visual Obscurations (not matched by '{'present': False, 'description': 'None'}'); Worse lying flat (not matched by 'afternoons'); Aggravated by Valsalva (not matched by 'stress')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 1.0
+    },
+    {
+      "name": "Nummular Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 20.0-80.0",
+        "symptom: headache was met",
+        "painScore: 4 - meets requirement for range 3 to 10",
+        "character: jabs - meets requirement for pressing, tightening, dull ache, stabbing sensation or sharp",
+        "Group 'Temporal Pattern (Chronic vs Intermittent)': Met 2/1 (Chronic (>3 months) (matched by 'episodic'); Intermittent (matched by 'episodic'))"
+      ],
+      "criteria_missing": [
+        "Group 'Sensory Changes (Common)': Met 0/1 -> [Dysesthesia (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "Group 'Criterion B: Shape & Size (1-6cm)': Met 0/1 -> [Round/Elliptical (not matched by 'around the eye')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Occipital Neuralgia",
+      "criteria_met": [
+        "symptom: headache was met",
+        "character: jabs - meets requirement for shooting, stabbing, sharp or electric-shock"
+      ],
+      "criteria_missing": [
+        "Group 'Context: Exam': Met 0/1 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "Group 'Location (Occipital)': Met 0/1 -> [Occipital/Scalp (not matched by 'around the eye')]",
+        "Group 'Sensory Changes': Met 0/1 -> [Dysesthesia (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 2.0
+    },
+    {
+      "name": "Migraine without Aura",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 17.0-65.0",
+        "Constraint sex: Male was met",
+        "symptom: headache was met",
+        "temporalPattern: episodic was met",
+        "hasAura: False was met",
+        "course: stable - meets requirement for stable, slowly worsening or fluctuating over years",
+        "cranialAutonomic: False was met",
+        "cutaneous: none was met"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "Group 'Criterion B: Duration & Onset': Met 1/2 -> [Duration 4-72h (not matched by 'range 1.0 to 3.0 seconds'); Gradual Onset (5-120m) (matched by '0 minutes')]",
+        "Group 'Criterion C: Pain Characteristics': Met 1/2 -> [Unilateral location (matched by 'side-shifting'); Pulsating quality (not matched by 'jabs'); Moderate/Severe Intensity (not matched by '4'); Aggravated by activity (not matched by 'none')]",
+        "Group 'Criterion D: Associated Symptoms': Met 0/1 -> [Nausea (not matched by '{'present': False, 'description': 'None'}'); Photophobia (not matched by '{'present': False, 'description': 'None'}'); Phonophobia (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Primary Headache Associated with Sexual Activity",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 20.0-60.0",
+        "Constraint sex: Male was met",
+        "symptom: headache was met",
+        "cranialAutonomic: False was met",
+        "temporalPattern: episodic was met",
+        "hasAura: False was met",
+        "Group 'Criterion C: Onset Pattern': Met 2/1 (Orgasmic explosive (matched by '0 minutes'); Pre-orgasmic aching (matched by '0 minutes'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "precipitating: stress is not consistent with sexual activity, masturbation or sexual intercourse",
+        "Group 'Criterion D: Duration (1m - 24h)': Met 0/1 -> [Minutes (not matched by 'range 1.0 to 3.0 seconds'); Hours (Severe) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Minutes | Hours (Severe) (not matched by 'range 1.0 to 3.0 seconds')]",
+        "Group 'Location (Bilateral/Occipital)': Met 0/1 -> [Occipital (not matched by 'around the eye'); Diffuse/Bilateral (not matched by 'side-shifting')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "New Daily Persistent Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 15.0-60.0",
+        "symptom: headache was met",
+        "temporalPattern: episodic - meets requirement for Continuous",
+        "course: stable - meets requirement for Stable (Unremitting)",
+        "Group 'Criterion B: Onset Clarity': Met 1/1 (Exact Date Recalled (matched by 'gradual'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "timeSinceOnset: 16 years is not consistent with range 3 to 24 months",
+        "timeToPeak: 0 minutes is not consistent with range 0.5 to 3 days",
+        "Group 'High frequency': Met 0/1 -> [Frequent (not matched by '5 per_day')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Medication Overuse Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-70.0",
+        "temporalPattern: episodic - meets requirement for Continuous",
+        "Group 'Overused Med': Met 2/1 (Triptan Overuse (not matched by 'paracetamol'); Opioid Overuse (matched by 'paracetamol'); Analgesic Overuse (matched by 'paracetamol'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "course: stable is not consistent with recently worsened, slowly worsening or worsening",
+        "Group 'High Frequency': Met 0/1 -> [Freq >15 days (not matched by '5 per_day')]",
+        "Group 'Overuse Pattern': Met 0/1 -> [Acute analesia overuse (not matched by '1 days_per_week')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Nervus Intermedius Neuralgia",
+      "criteria_met": [
+        "character: jabs - meets requirement for shooting, stabbing or electric-shock"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "symptom: headache is not consistent with Ear pain",
+        "Group 'Location (Auditory Canal)': Met 0/1 -> [Deep Ear (not matched by 'around the eye')]",
+        "Group 'Trigger (Ear Canal)': Met 0/1 -> [Touching Ear (not matched by 'stress')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Headache attributed to Acute Angle-closure Glaucoma",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 50.0-95.0",
+        "symptom: headache - meets requirement for headache or eye pain",
+        "onsetMode: gradual - meets requirement for Acute",
+        "regions: around the eye - meets requirement for orbital, periorbital, frontal, retro-orbital, in the eye or around the eye",
+        "Group 'Associated features': Met 0/0 (Vomiting (not matched by '{'present': False, 'description': 'None'}'); Low light environment (not matched by 'stress'))",
+        "Group 'Anticholinergic medication': Met 0/0 (No specific data matched)"
+      ],
+      "criteria_missing": [
+        "Group 'Physical Exam Findings': Met 0/2 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "nausea: False is not consistent with True",
+        "Group 'Visual Symptoms (Halos)': Met 0/1 -> [Halos (not matched by '{'present': False, 'description': 'None'}'); Blurring (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Headache attributed to Meningitis",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 17.0-90.0",
+        "symptom: headache was met",
+        "onsetMode: gradual was met",
+        "temporalPattern: episodic - meets requirement for continuous with exacerbations or continuous",
+        "course: stable - meets requirement for Rapidly worsening"
+      ],
+      "criteria_missing": [
+        "Group 'CSF Findings': Met 0/1 (Context Missing)"
+      ],
+      "incompatibilities": [
+        "painScore: 4 is not consistent with range 7 to 10",
+        "timeSinceOnset: 16 years is not consistent with range 0.25 to 7 days",
+        "Group 'Meningeal Triad & Signs': Met 0/2 -> [Fever (not matched by '{'present': False, 'description': None, 'onsetMode': None, 'temporalPattern': None, 'timeSinceOnset': {'value': None, 'unit': None}}'); Neck stiffness (not matched by '{'present': False, 'description': None, 'onsetMode': None, 'temporalPattern': None, 'timeSinceOnset': {'value': None, 'unit': None}}'); Rash (not matched by '{'present': False, 'description': None, 'onsetMode': None, 'temporalPattern': None, 'timeSinceOnset': {'value': None, 'unit': None}}'); Altered Mental Status (not matched by '{'present': False, 'description': None, 'onsetMode': None, 'temporalPattern': None, 'timeSinceOnset': {'value': None, 'unit': None}}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Short-lasting Unilateral Neuralgiform Headache with Conjunctival injection and Tearing (SUNCT)",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 30.0-70.0",
+        "symptom: headache - meets requirement for headache or facial pain",
+        "hasAura: False was met",
+        "Group 'Temporal Pattern (Episodic vs Chronic)': Met 2/1 (Episodic SUNCT (matched by 'episodic'); Chronic SUNCT (matched by 'episodic'))",
+        "Group 'Criterion B: Duration (1-600 seconds)': Met 1/1 (Seconds (Short) (matched by 'range 1.0 to 3.0 seconds'); Minutes (Longer) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Seconds (Short) | Minutes (Longer) (not matched by 'range 1.0 to 3.0 seconds'))",
+        "Group 'Criterion B: Character': Met 3/1 (Single Stabs (matched by 'jabs'); Saw-tooth pattern (matched by 'jabs'); Electric-shock (matched by 'jabs'))",
+        "Group 'Criterion B: Location (Upper trigeminal)': Met 3/1 (Orbital (matched by 'around the eye'); Supraorbital (matched by 'around the eye'); Temporal (matched by 'around the eye'))",
+        "Group 'Criterion D: Frequency (At least 1/day)': Met 1/1 (Frequent (Daily) (matched by '5 per_day'); Very Frequent (not matched by '5 per_day'))",
+        "Group 'Criterion C: Additional Autonomic (Optional in addtion to fixed)': Met 0/0 (Lacrimation (Tearing) (not matched by '{'present': False, 'description': 'None'}'); Conjunctival Injection (Red eye) (not matched by '{'present': False, 'description': 'None'}'); Forehead/Facial Sweating (not matched by '{'present': False, 'description': 'None'}'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "painScore: 4 is not consistent with range 5 to 10",
+        "cutaneous: none is not consistent with touching face, washing face, chewing or wind",
+        "Group 'Criterion SUNCT B: Autonomic (Both Required)': Met 0/2 -> [Lacrimation (Tearing) (not matched by '{'present': False, 'description': 'None'}'); Conjunctival Injection (Red eye) (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Short-lasting Unilateral Neuralgiform Headache with Cranial Autonomic Symptoms (SUNA)",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 30.0-80.0",
+        "symptom: headache - meets requirement for headache or facial pain",
+        "hasAura: False was met",
+        "Group 'Temporal Pattern (Episodic vs Chronic)': Met 2/1 (Episodic SUNA (matched by 'episodic'); Chronic SUNA (matched by 'episodic'))",
+        "Group 'Criterion B: Duration (1-600 seconds)': Met 1/1 (Seconds (Short) (matched by 'range 1.0 to 3.0 seconds'); Minutes (Longer) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Seconds (Short) | Minutes (Longer) (not matched by 'range 1.0 to 3.0 seconds'))",
+        "Group 'Criterion B: Character': Met 3/1 (Single Stabs (matched by 'jabs'); Saw-tooth pattern (matched by 'jabs'); Electric-shock (matched by 'jabs'))",
+        "Group 'Criterion B: Location (Upper trigeminal)': Met 3/1 (Orbital (matched by 'around the eye'); Supraorbital (matched by 'around the eye'); Temporal (matched by 'around the eye'))",
+        "Group 'Criterion D: Frequency (At least 1/day)': Met 1/1 (Frequent (Daily) (matched by '5 per_day'); Very Frequent (not matched by '5 per_day'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "painScore: 4 is not consistent with range 5 to 10",
+        "cutaneous: none is not consistent with touching face, washing face, chewing or wind",
+        "Group 'Criterion SUNA B: Autonomic (Max 1 of Injection/Tearing)': Met 0/1 -> [Injection ONLY (not matched by '{'present': False, 'description': 'None'}'); Lacrimation ONLY (not matched by '{'present': False, 'description': 'None'}'); Nasal Symptoms (not matched by '{'present': False, 'description': 'None'}'); Eyelid Oedema (not matched by '{'present': False, 'description': 'None'}'); Forehead/Facial Sweating (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Hypnic Headache",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 50.0-80.0",
+        "symptom: headache was met",
+        "temporalPattern: episodic was met",
+        "cranialAutonomic: False was met",
+        "character: jabs - meets requirement for pressing, dull ache, stabbing sensation or sharp",
+        "Group 'Location (Bilateral 2/3)': Met 1/1 (Bilateral (not matched by 'side-shifting'); Unilateral (matched by 'side-shifting'))",
+        "Group 'Features (Mild/Mod vs Severe)': Met 1/1 (Mild/Moderate (matched by '4'); Severe (not matched by '4'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "timingPattern: afternoons is not consistent with wakes from sleep same time each night, every night at same time or alarm clock headache",
+        "relieving: sleep is not consistent with caffeine, coffee or walking around",
+        "Group 'Criterion C: Frequency (>10 days/month)': Met 0/1 -> [Frequent (not matched by '5 per_day')]",
+        "Group 'Criterion D: Duration (15m - 4h)': Met 0/1 -> [Standard (15-180m) (not matched by 'range 1.0 to 3.0 seconds'); Long (up to 4h) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Standard (15-180m) | Long (up to 4h) (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Paroxysmal Hemicrania",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 18.0-60.0",
+        "symptom: headache - meets requirement for headache or facial pain",
+        "hasAura: False was met",
+        "cutaneous: none was met",
+        "Group 'Criterion D: Frequency (>5/day)': Met 1/1 (High Frequency (6-40 per day) (matched by '5 per_day'))",
+        "Group 'Criterion C2: Restlessness or Agitation (Optional)': Met 0/0 (Sense of restlessness (not matched by '{'present': False, 'description': 'None'}'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "Group 'Criterion B: Site & Severity': Met 1/2 -> [Specific Sites (Orbital/Temporal) (matched by 'around the eye'); Severe Pain (8-10) (not matched by '4')]",
+        "Group 'Criterion B: Duration (2-30 mins)': Met 0/1 -> [Short Duration (not matched by 'range 1.0 to 3.0 seconds')]",
+        "Group 'Criterion C: Cranial Autonomic (At least 1)': Met 0/1 -> [Lacrimation (Tearing) (not matched by '{'present': False, 'description': 'None'}'); Conjunctival Injection (Red eye) (not matched by '{'present': False, 'description': 'None'}'); Nasal Symptoms (not matched by '{'present': False, 'description': 'None'}'); Eyelid Oedema (not matched by '{'present': False, 'description': 'None'}'); Forehead/Facial Sweating (not matched by '{'present': False, 'description': 'None'}'); Miosis/Ptosis (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Hemicrania Continua",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 20.0-60.0",
+        "symptom: headache - meets requirement for headache or facial pain",
+        "temporalPattern: episodic - meets requirement for Continuous with exacerbations",
+        "Group 'Migrainous Features (Common)': Met 0/0 (Photophobia (not matched by 'False'); Phonophobia (not matched by 'False'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "painScore: 4 is not consistent with range 5 to 10",
+        "Group 'Criterion C1: Either or both of Cranial Autonomic OR Restlessness/Movement Aggravation': Met 0/1 -> [Lacrimation (Tearing) (not matched by '{'present': False, 'description': 'None'}'); Conjunctival Injection (Red eye) (not matched by '{'present': False, 'description': 'None'}'); Nasal Symptoms (not matched by '{'present': False, 'description': 'None'}'); Eyelid Oedema (not matched by '{'present': False, 'description': 'None'}'); Forehead/Facial Sweating (not matched by '{'present': False, 'description': 'None'}'); Miosis/Ptosis (not matched by '{'present': False, 'description': 'None'}'); Restlessness (not matched by '{'present': False, 'description': 'None'}'); Aggravated by Movement (not matched by 'none')]",
+        "Group 'Long headache duration >3 months': Met 0/1 -> [>3 months (not matched by 'range 1.0 to 3.0 seconds')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Neck-Tongue Syndrome",
+      "criteria_met": [
+        "character: jabs - meets requirement for Sharp/Stabbing"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "symptom: headache is not consistent with Neck and tongue pain",
+        "Group 'Trigger (Neck Turn)': Met 0/1 -> [Sudden Turn (not matched by 'stress')]",
+        "Group 'Unique Symptom (Tongue Numbness)': Met 0/1 -> [Tongue Numbness (not matched by '{'present': False, 'description': 'None'}')]",
+        "Group 'Location': Met 0/1 -> [Upper Neck/Occiput (not matched by 'around the eye')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Migraine with Aura",
+      "criteria_met": [
+        "temporalPattern: episodic was met",
+        "course: stable - meets requirement for stable, slowly worsening or fluctuating over years",
+        "symptom: headache was met",
+        "cranialAutonomic: False was met",
+        "cutaneous: none was met",
+        "Group 'Step 2: General Aura Features': Met 2/2 (Spreads gradually (>5min) (matched by 'None None'); Relation to Headache (Before) (matched by 'None None'))"
+      ],
+      "criteria_missing": [
+        "Group 'Step 1: Determine Aura Type': Met 0/1 -> [No specific data matched]"
+      ],
+      "incompatibilities": [
+        "hasAura: False is not consistent with True",
+        "Group 'Criterion B: Duration & Onset': Met 1/2 -> [Duration 4-72h (not matched by 'range 1.0 to 3.0 seconds'); Gradual Onset (5-120m) (matched by '0 minutes')]",
+        "Group 'Criterion C: Pain Characteristics': Met 1/2 -> [Unilateral location (matched by 'side-shifting'); Pulsating quality (not matched by 'jabs'); Moderate/Severe Intensity (not matched by '4'); Aggravated by activity (not matched by 'none')]",
+        "Group 'Criterion D: Associated Symptoms': Met 0/1 -> [Nausea (not matched by '{'present': False, 'description': 'None'}'); Photophobia (not matched by '{'present': False, 'description': 'None'}'); Phonophobia (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 4.0
+    },
+    {
+      "name": "Trigeminal Neuralgia",
+      "criteria_met": [
+        "Constraint age: 59.0 is in range 40.0-80.0",
+        "Constraint sex: Male was met",
+        "cranialAutonomic: False was met",
+        "hasAura: False was met",
+        "Group 'Criterion B1: Duration (Fraction of sec to 2 min)': Met 2/1 (Very Brief (Seconds) (matched by 'range 1.0 to 3.0 seconds'); Brief (up to 2 mins) (not matched by 'range 1.0 to 3.0 seconds'); Consolidated Range: Very Brief (Seconds) | Brief (up to 2 mins) (matched by 'range 1.0 to 3.0 seconds'))",
+        "Group 'Criterion B3: Quality (Electric/Shock-like)': Met 3/1 (Electric Shock (matched by 'jabs'); Shooting (matched by 'jabs'); Stabbing/Sharp (matched by 'jabs'))",
+        "Group 'Criterion A: Distribution (V1/V2/V3)': Met 1/1 (V2 (Maxillary) - Cheek/Nose (not matched by 'around the eye'); V3 (Mandibular) - Jaw/Chin (not matched by 'around the eye'); V1 (Ophthalmic) - Forehead/Eye (Rarer) (matched by 'around the eye'))",
+        "Group 'Subtype: Concomitant Continuous Pain': Met 1/0 (Background Ache (Concomitant) (matched by 'episodic'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "symptom: headache is not consistent with Facial Pain",
+        "laterality: side-shifting is not consistent with strictly right-sided or strictly left-sided",
+        "Group 'Criterion B2: Severity': Met 0/1 -> [Severe/Excruciating (not matched by '4')]",
+        "Group 'Criterion C: Innocuous Triggers': Met 0/2 -> [Light Touch (not matched by 'none'); Washing/Shaving (not matched by 'none'); Oral triggers (not matched by 'stress'); Wind/Draft (not matched by 'none')]",
+        "Group 'Feature: Refractory Period': Met 0/1 -> [Refractory Period (not matched by 'sleep')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 5.0
+    },
+    {
+      "name": "Menstrual Migraine",
+      "criteria_met": [
+        "symptom: headache was met",
+        "temporalPattern: episodic was met",
+        "course: stable - meets requirement for stable, slowly worsening or fluctuating over years",
+        "cranialAutonomic: False was met",
+        "cutaneous: none was met",
+        "timingPattern: afternoons - meets requirement for Menstrual",
+        "Group 'Criterion C: Pain Characteristics': Met 2/2 (Unilateral location (matched by 'side-shifting'); Pulsating quality (matched by 'jabs'); Moderate/Severe Intensity (not matched by '4'); Aggravated by activity (not matched by 'none'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "Constraint age: 59.0 is not within range 17.0-50.0",
+        "Constraint sex: 'Male' is not in allowed [Female]",
+        "precipitating: stress is not consistent with Menstruation",
+        "Group 'Criterion B: Duration & Onset': Met 1/2 -> [Duration 4-72h (not matched by 'range 1.0 to 3.0 seconds'); Gradual Onset (5-120m) (matched by '0 minutes')]",
+        "Group 'Criterion D: Associated Symptoms': Met 0/1 -> [Nausea (not matched by '{'present': False, 'description': 'None'}'); Photophobia (not matched by '{'present': False, 'description': 'None'}'); Phonophobia (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 3.0
+    },
+    {
+      "name": "Cluster Headache",
+      "criteria_met": [
+        "Constraint sex: Male was met",
+        "symptom: headache - meets requirement for headache or facial pain",
+        "character: jabs - meets requirement for boring, burning, piercing, sharp, stabbing, drilling or squeezing",
+        "cutaneous: none was met",
+        "hasAura: False was met",
+        "Group 'Temporal Pattern': Met 2/1 (Episodic (Clustered bouts) (matched by 'episodic'); Chronic Cluster Headache (matched by 'episodic'))",
+        "Group 'Rapid Onset & Timing': Met 2/1 (Rapid Peak (5-15m) (matched by '0 minutes'); Nocturnal Timing (matched by 'afternoons'))",
+        "Group 'Criterion D: Frequency (1 every other day to 8/day)': Met 1/1 (Daily frequency (0.5-8 per day) (matched by '5 per_day'))"
+      ],
+      "criteria_missing": [],
+      "incompatibilities": [
+        "Constraint age: 59.0 is not within range 20.0-50.0",
+        "aggravating: none is not consistent with alcohol",
+        "Group 'Criterion B1: Severe Unilateral Orbital/Temporal Pain': Met 1/3 -> [Strictly Unilateral (not matched by 'side-shifting'); Specific Sites (matched by 'around the eye'); Severe/Very Severe (8-10) (not matched by '4')]",
+        "Group 'Criterion B2: Duration (15-180 mins)': Met 0/1 -> [Duration sampling (not matched by 'range 1.0 to 3.0 seconds')]",
+        "Group 'Criterion C1: Cranial Autonomic Symptoms (At least one)': Met 0/1 -> [Lacrimation (Tearing) (not matched by '{'present': False, 'description': 'None'}'); Conjunctival Injection (Red eye) (not matched by '{'present': False, 'description': 'None'}'); Nasal Symptoms (not matched by '{'present': False, 'description': 'None'}'); Eyelid Oedema (not matched by '{'present': False, 'description': 'None'}'); Forehead/Facial Sweating (not matched by '{'present': False, 'description': 'None'}'); Miosis/Ptosis (not matched by '{'present': False, 'description': 'None'}')]",
+        "Group 'Criterion C2: Restlessness or Agitation': Met 0/1 -> [Sense of restlessness (not matched by '{'present': False, 'description': 'None'}')]"
+      ],
+      "unknown_fields": [],
+      "incompatibility_score": 5.0
+    }
+  ],
+  "analysis_lists": {
+    "valid_candidates_0_incompatibilities": [
+      "Primary Stabbing Headache"
+    ],
+    "likely_candidates_1_incompatibility": [
+      "Hemiplegic Migraine"
+    ],
+    "missing_information_for_valid_candidates": []
+  },
+  "ground_truth_management": {
+    "history_narrowing_possible": false,
+    "investigations": {
+      "ct": {
+        "status": "always_inappropriate",
+        "reasons": []
+      },
+      "mri": {
+        "status": "always_inappropriate",
+        "reasons": []
+      },
+      "lp": {
+        "status": "always_inappropriate",
+        "reasons": []
+      },
+      "indomethacin": {
+        "status": "sometimes_appropriate",
+        "reasons": [
+          "Primary Stabbing Headache (sometimes_appropriate)"
+        ]
+      }
+    }
+  },
+  "simulation_metadata": {
+    "sampling_rate": 1.0,
+    "active_questions": [
+      "demographics.age",
+      "demographics.sex",
+      "chiefComplaint",
+      "history.timeSinceOnset",
+      "history.onsetMode",
+      "history.course",
+      "headacheProfile.temporalPattern",
+      "headacheProfile.frequency",
+      "headacheProfile.duration",
+      "headacheProfile.timeToPeak",
+      "headacheProfile.timingPattern",
+      "headacheProfile.location.laterality",
+      "headacheProfile.location.regions",
+      "headacheProfile.location.radiation",
+      "headacheProfile.character",
+      "headacheProfile.severity.painScore",
+      "headacheProfile.severity.functionalImpact",
+      "triggersAndFactors.precipitating",
+      "triggersAndFactors.aggravating",
+      "triggersAndFactors.relieving",
+      "triggersAndFactors.cutaneous",
+      "associatedSymptoms.nausea.present",
+      "associatedSymptoms.vomiting.present",
+      "associatedSymptoms.photophobia.present",
+      "associatedSymptoms.phonophobia.present",
+      "associatedSymptoms.visual.present",
+      "associatedSymptoms.tinnitus.present",
+      "associatedSymptoms.vertigo.present",
+      "associatedSymptoms.alteredSensation.present",
+      "associatedSymptoms.restlessness.present",
+      "associatedSymptoms.cranialAutonomic.present",
+      "associatedSymptoms.jawClaudication.present",
+      "associatedSymptoms.scalpTenderness.present",
+      "associatedSymptoms.motorWeakness.present",
+      "auraDetails.hasAura",
+      "auraDetails.type",
+      "auraDetails.relationToHeadache",
+      "auraDetails.progression",
+      "auraDetails.duration",
+      "auraDetails.visualPhenomena",
+      "auraDetails.retinalPhenomena",
+      "auraDetails.sensoryPhenomena",
+      "auraDetails.speechPhenomena",
+      "auraDetails.motorPhenomena",
+      "auraDetails.brainstemPhenomena",
+      "demographics.height",
+      "demographics.weight",
+      "otherSymptoms.sensorimotor.present",
+      "otherSymptoms.cognitive.present",
+      "otherSymptoms.general.present",
+      "medicationHistory.currentAcute",
+      "medicationHistory.acuteFrequency",
+      "patientPerspectives.perceivedCause",
+      "patientPerspectives.beliefsAndConcerns",
+      "patientPerspectives.treatmentExpectation",
+      "otherSymptoms.cognitive.description",
+      "otherSymptoms.general.timeSinceOnset",
+      "otherSymptoms.sensorimotor.description",
+      "otherSymptoms.general.temporalPattern",
+      "otherSymptoms.cognitive.timeSinceOnset",
+      "medicationHistory.indomethacinResponse",
+      "associatedSymptoms.tinnitus.description",
+      "otherSymptoms.general.onsetMode",
+      "associatedSymptoms.cranialAutonomic.description",
+      "otherSymptoms.sensorimotor.onsetMode",
+      "associatedSymptoms.motorWeakness.description",
+      "chiefComplaint.symptom",
+      "associatedSymptoms.alteredSensation.description",
+      "otherSymptoms.cognitive.onsetMode",
+      "otherSymptoms.sensorimotor.temporalPattern",
+      "associatedSymptoms.visual.description",
+      "otherSymptoms.sensorimotor.timeSinceOnset",
+      "otherSymptoms.general.description",
+      "otherSymptoms.cognitive.temporalPattern"
+    ],
+    "inactive_questions": [
+      "medicationHistory.currentPreventative",
+      "medicationHistory.pastMedications"
+    ],
+    "excluded_paths": [
+      "medicationHistory.currentPreventative",
+      "medicationHistory.pastMedications"
+    ]
+  }
+}

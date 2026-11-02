@@ -1,0 +1,36 @@
+**Patient**
+- 63-year-old female
+- BMI: 34.5
+- Main symptom: Headache
+
+**History**
+- Gradual onset; 6 months ago; Slowly worsening
+
+**Headache profile**
+- Continuous with exacerbations
+- Location: Bilateral, Frontal, Temporal; radiates to eye
+- Character: Tightening
+- Frequency: 6 days per month
+- Duration: 3-24 hours
+- Time to peak: 43 minutes
+- Severity: 5/10; mild functional impact
+
+**Associated symptoms**
+- Nil
+
+**Other symptoms**
+- Left arm weakness gradual onset and continuous for 6 months
+- Night sweats gradual onset and continuous for 6 months
+- Nil else
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Skipping meals
+- Aggravating factors: Straining
+- Relieving factors: Rest
+
+**Medications**
+- Acute: Ibuprofen; 1 per week
+- Preventative: None

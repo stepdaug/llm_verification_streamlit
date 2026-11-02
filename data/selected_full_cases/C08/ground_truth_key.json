@@ -1,0 +1,11 @@
+{
+  "validation_case_id": "C08",
+  "case_id": "case_0515",
+  "gt_diagnosis": "Brain Tumour",
+  "gt_ct": "Do not perform",
+  "gt_mri": "Do not perform",
+  "gt_lp": "Do not perform",
+  "gt_indomethacin": "Do not use",
+  "gt_codeine": "Do not use",
+  "gt_triage": "Immediate or Urgent"
+}

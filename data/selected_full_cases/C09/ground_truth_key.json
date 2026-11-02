@@ -1,0 +1,11 @@
+{
+  "validation_case_id": "C09",
+  "case_id": "case_0280",
+  "gt_diagnosis": "Primary Stabbing Headache",
+  "gt_ct": "Do not perform",
+  "gt_mri": "Do not perform",
+  "gt_lp": "Do not perform",
+  "gt_indomethacin": "Clinical judgement",
+  "gt_codeine": "Do not use",
+  "gt_triage": ""
+}

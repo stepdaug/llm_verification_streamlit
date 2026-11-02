@@ -1,0 +1,35 @@
+**Patient**
+- 48-year-old female
+- BMI: 33
+- Main symptom: Headache
+
+**History**
+- Onset 3 years ago
+
+**Headache profile**
+- Episodic
+- Location: Predominantly left-sided, Occipital, Neck/Cervical; radiates to behind eye
+- Character: Thumping
+- Frequency: 7 days per month
+- Duration: 1-2 days
+- Time to peak: 19.8 minutes
+- Severity: 6/10; mild functional impact
+
+**Associated symptoms**
+- nausea: "Queasiness"
+- photophobia: "Cannot tolerate light"
+- "Kaleidoscope" in vision, starts 25 minutes before headache, builds over 11 minutes, lasts 13 minutes
+- nil
+
+**Other symptoms**
+- Nil
+
+**Triggers and relieving factors**
+- Precipitants: Stress, Caffeine
+- Aggravating factors: Strong smells
+- Relieving factors: Analgesia
+
+**Medications**
+- Acute: None
+- Preventative: None
+- Past medications: Pizotifen (stopped: Side effects; side effects: Brain fog), Candesartan (stopped: Cost)

@@ -1,0 +1,235 @@
+{
+  "demographics": {
+    "age": 47.0,
+    "sex": "Female",
+    "height": {
+      "value": 1.67,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 61.4,
+      "unit": "kg"
+    },
+    "bmi": 22.0
+  },
+  "chiefComplaint": {
+    "symptom": "Facial pain",
+    "diagnosis_label": "Hemicrania Continua"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 18,
+      "unit": "years"
+    },
+    "onsetMode": "Acute",
+    "course": "Stable"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Continuous with exacerbations",
+    "timingPattern": "",
+    "frequency": {
+      "value": 13,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "min_value": 6,
+      "max_value": 10,
+      "unit": "months"
+    },
+    "timeToPeak": {
+      "value": 18.9,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 6,
+      "functionalImpact": "Moderate"
+    },
+    "location": {
+      "laterality": "Strictly right-sided",
+      "regions": [
+        "Temporal",
+        "Neck/Cervical"
+      ],
+      "radiation": "To neck"
+    },
+    "character": "Pressing"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": false,
+      "description": "None"
+    },
+    "photophobia": {
+      "present": true,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": true,
+      "description": [
+        "Eye streaming"
+      ]
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Alcohol",
+      "Caffeine"
+    ],
+    "aggravating": [],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Sleep"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 1,
+      "unit": "per week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "Complete relief",
+    "pastMedications": [
+      {
+        "name": "Pizotifen",
+        "reasonStopped": "Side effects",
+        "sideEffects": "Dry mouth"
+      },
+      {
+        "name": "Propranolol",
+        "reasonStopped": "Lack of efficacy",
+        "sideEffects": "None"
+      },
+      {
+        "name": "Topiramate",
+        "reasonStopped": "Cost",
+        "sideEffects": "None"
+      }
+    ]
+  },
+  "contextRequirements": {
+    "type": null,
+    "value": null
+  },
+  "patientPerspectives": {
+    "perceivedCause": "None",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "Wants natural remedies"
+  },
+  "carePathway": {
+    "referralToNeurology": false,
+    "reason": "None"
+  },
+  "clinicalAdvice": {
+    "guidance": []
+  },
+  "groundTruthHidden": {
+    "highEfficacyInterventions": [
+      {
+        "intervention": "Strict dietary avoidance of Alcohol",
+        "efficacy_magnitude": "High (User-specific trigger)"
+      },
+      {
+        "intervention": "Strict dietary avoidance of Caffeine",
+        "efficacy_magnitude": "High (User-specific trigger)"
+      }
+    ]
+  }
+}

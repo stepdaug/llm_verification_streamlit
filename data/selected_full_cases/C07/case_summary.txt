@@ -1,0 +1,35 @@
+**Patient**
+- 20-year-old female
+- BMI: 35.1
+- Main symptom: Headache
+
+**History**
+- Onset 1 year ago; Slowly worsening
+
+**Headache profile**
+- Continuous with exacerbations
+- Location: Bilateral, Occipital; radiates to eye
+- Character: Pounding
+- Frequency: 2 days per month
+- Duration: 3-5 hours
+- Time to peak: 18 minutes
+- Severity: 3/10; mild functional impact
+
+**Associated symptoms**
+- "Vision greying out for seconds when bending over"
+- "Whooshing sound in ears"
+- Nil else
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: "Recent weight gain"
+- Relieving factors: Rest
+
+**Medications**
+- Acute: None
+- Preventative: None

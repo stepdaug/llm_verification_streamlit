@@ -1,0 +1,11 @@
+{
+  "validation_case_id": "C05",
+  "case_id": "case_0234",
+  "gt_diagnosis": "Migraine with Aura",
+  "gt_ct": "Do not perform",
+  "gt_mri": "Perform",
+  "gt_lp": "Do not perform",
+  "gt_indomethacin": "Clinical judgement",
+  "gt_codeine": "Do not use",
+  "gt_triage": ""
+}

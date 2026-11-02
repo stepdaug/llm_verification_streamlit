@@ -1,0 +1,235 @@
+{
+  "demographics": {
+    "age": 24.6,
+    "sex": "Female",
+    "height": {
+      "value": 1.63,
+      "unit": "m"
+    },
+    "weight": {
+      "value": 65.4,
+      "unit": "kg"
+    },
+    "bmi": 24.6
+  },
+  "chiefComplaint": {
+    "symptom": "Headache"
+  },
+  "history": {
+    "timeSinceOnset": {
+      "value": 4,
+      "unit": "months"
+    },
+    "onsetMode": "Gradual",
+    "course": "Slowly worsening"
+  },
+  "headacheProfile": {
+    "temporalPattern": "Continuous",
+    "timingPattern": "Upon awakening",
+    "frequency": {
+      "value": 7,
+      "unit": "days_per_month"
+    },
+    "duration": {
+      "value": 66,
+      "unit": "hours",
+      "min_value": 2,
+      "max_value": 12
+    },
+    "timeToPeak": {
+      "value": 59.0,
+      "unit": "minutes"
+    },
+    "severity": {
+      "painScore": 5,
+      "functionalImpact": "Moderate"
+    },
+    "location": {
+      "laterality": "Bilateral",
+      "regions": [
+        "Occipital",
+        "Temporal"
+      ],
+      "radiation": "To neck"
+    },
+    "character": "Expansive"
+  },
+  "associatedSymptoms": {
+    "nausea": {
+      "present": false,
+      "description": "None"
+    },
+    "vomiting": {
+      "present": true,
+      "description": [
+        "Morning vomiting without nausea"
+      ]
+    },
+    "photophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "phonophobia": {
+      "present": false,
+      "description": "None"
+    },
+    "cranialAutonomic": {
+      "present": false,
+      "description": "None"
+    },
+    "jawClaudication": {
+      "present": false,
+      "description": "None"
+    },
+    "scalpTenderness": {
+      "present": false,
+      "description": "None"
+    },
+    "motorWeakness": {
+      "present": false,
+      "description": "None"
+    },
+    "visual": {
+      "present": false,
+      "description": "None"
+    },
+    "tinnitus": {
+      "present": false,
+      "description": "None"
+    },
+    "vertigo": {
+      "present": false,
+      "description": "None"
+    },
+    "alteredSensation": {
+      "present": false,
+      "description": "None"
+    },
+    "restlessness": {
+      "present": false,
+      "description": "None"
+    }
+  },
+  "otherSymptoms": {
+    "sensorimotor": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    },
+    "cognitive": {
+      "present": true,
+      "description": [
+        "Acting strangely/out of character"
+      ],
+      "onsetMode": "Gradual",
+      "temporalPattern": "Continuous",
+      "timeSinceOnset": {
+        "value": 4,
+        "unit": "months"
+      }
+    },
+    "general": {
+      "present": false,
+      "description": null,
+      "onsetMode": null,
+      "temporalPattern": null,
+      "timeSinceOnset": {
+        "value": null,
+        "unit": null
+      }
+    }
+  },
+  "auraDetails": {
+    "hasAura": false,
+    "type": null,
+    "visualPhenomena": null,
+    "retinalPhenomena": null,
+    "sensoryPhenomena": null,
+    "speechPhenomena": null,
+    "motorPhenomena": null,
+    "brainstemPhenomena": null,
+    "progression": {
+      "value": null,
+      "unit": null
+    },
+    "duration": {
+      "value": null,
+      "unit": null
+    },
+    "relationToHeadache": {
+      "value": null,
+      "unit": null
+    }
+  },
+  "triggersAndFactors": {
+    "precipitating": [
+      "Sneezing"
+    ],
+    "aggravating": [],
+    "cutaneous": [
+      "None"
+    ],
+    "relieving": [
+      "Rest"
+    ]
+  },
+  "medicationHistory": {
+    "currentAcute": "Ibuprofen",
+    "acuteFrequency": {
+      "value": 1,
+      "unit": "per week"
+    },
+    "currentPreventative": "None",
+    "overuseSuspected": false,
+    "indomethacinResponse": "No effect",
+    "pastMedications": [
+      {
+        "name": "Propranolol",
+        "reasonStopped": "Side effects",
+        "sideEffects": "Tingling fingers"
+      },
+      {
+        "name": "Amitriptyline",
+        "reasonStopped": "Cost",
+        "sideEffects": "None"
+      },
+      {
+        "name": "Pizotifen",
+        "reasonStopped": "Side effects",
+        "sideEffects": "Dry mouth"
+      }
+    ]
+  },
+  "contextRequirements": [
+    {
+      "target": "physical_exam",
+      "detail": "Fundoscopy: Bilateral papilloedema with venous pulsation absent."
+    },
+    {
+      "target": "physical_exam",
+      "detail": "Cognitive Testing (MOCA/ACE-III): Deficits noted consistent with reported cognitive/personality changes."
+    },
+    {
+      "target": "investigation_findings",
+      "detail": "MRI Brain: Multiple ring-enhancing lesions at the grey-white matter junction with vasogenic oedema. Suggestive of Metastases."
+    }
+  ],
+  "patientPerspectives": {
+    "perceivedCause": "None",
+    "beliefsAndConcerns": "None",
+    "treatmentExpectation": "None"
+  },
+  "carePathway": {
+    "referralToNeurology": false,
+    "reason": "None"
+  },
+  "clinicalAdvice": {
+    "guidance": []
+  },
+  "neurological_examination": "Normal"
+}

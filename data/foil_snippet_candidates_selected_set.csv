@@ -1,0 +1,21 @@
+candidate_id,include,source,snippet,word_count
+F01,TRUE,foil,The headache started tomorrow and has lasted minus three hours. It is only on the left and only on the right at exactly the same time.,26
+F02,TRUE,foil,"Every four seconds the pain uploads from my forehead into my ankle, then returns when the clinic computer refreshes.",19
+F03,TRUE,foil,"I have never had a headache, including the headache I have had continuously every day for the last five years.",20
+F04,TRUE,foil,"The pain is exactly 7.0000 out of 10 at all times, except when it is exactly 12 out of 10 and completely absent simultaneously.",24
+F05,TRUE,foil,"My left eye became invisible to me, but I can still see it perfectly with that same left eye whenever I close both eyes.",24
+F06,TRUE,foil,"The headache lasts for precisely zero minutes each time, but each episode continues without stopping for six hours.",18
+F07,TRUE,foil,"Whenever I think about standing up, the pain teleports from the back of my head to my right kidney before I have moved.",23
+F08,TRUE,foil,"The symptoms began three days before I was born and have only occurred since yesterday, continuously for twenty years.",19
+F09,FALSE,foil,"The pain is confined to a single point that covers my entire head, chest, abdomen and both feet without spreading anywhere.",21
+F10,TRUE,foil,"My vision is completely normal, but I cannot see anything at all, including light, and this only happens while my vision stays normal.",23
+F11,FALSE,foil,"The headache disappears whenever it is present and returns only while it is absent, so I can always feel it when there is no pain.",25
+F12,TRUE,foil,"I vomit exactly one litre every minute without losing any fluid, and I have not vomited once during the same episode.",21
+F13,FALSE,foil,"My neck is perfectly flexible and completely rigid at the same moment, and moving it both always worsens and always relieves the pain.",23
+F14,FALSE,foil,"The pain began after the scan that I have never had, and the scan showed a result before the hospital was built.",22
+F15,FALSE,foil,"My temperature is always 37 degrees and has also stayed at 50 degrees continuously, without changing, for the past week.",20
+F16,FALSE,foil,"I lose consciousness for ten minutes while remaining fully awake, speaking normally and remembering that I was unconscious throughout.",19
+F17,FALSE,foil,"The numbness affects no part of my body, especially my entire left side, which is completely numb but has normal sensation everywhere.",22
+F18,FALSE,foil,The pain moves clockwise around a straight line and becomes quieter in colour whenever I hear something bright.,18
+F19,FALSE,foil,"I have had the symptom once every day, exactly twice per week, and never more than once a month since it started yesterday last year.",25
+F20,FALSE,foil,The headache is triggered only by sleeping while I am awake and stops immediately whenever it continues for several more hours.,21

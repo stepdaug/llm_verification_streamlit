@@ -1,0 +1,36 @@
+**Patient**
+- 62-year-old female
+- BMI: 27.8
+- Main symptom: Headache
+
+**History**
+- Acute onset; 8 months ago; Fluctuating
+
+**Headache profile**
+- Episodic
+- Location: Strictly left-sided, Behind the eye, Temporal
+- Character: Sharp jabs
+- Frequency: 49 per day
+- Duration: 7-9 minutes
+- Time to peak: 2 seconds
+- Severity: 5/10; mild functional impact
+
+**Associated symptoms**
+- Lacrimation, Visible veins in eye, Eyes streaming
+- Nil else
+
+**Other symptoms**
+- Nil
+
+**Aura**
+- None
+
+**Triggers and relieving factors**
+- Precipitants: Weather changes, Stress
+- Aggravating factors: Straining
+- Cutaneous triggers: Chewing
+- Relieving factors: Sleep
+
+**Medications**
+- Acute: Paracetamol; 1 per week
+- Preventative: None
