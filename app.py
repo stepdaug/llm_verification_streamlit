@@ -410,7 +410,7 @@ def render_snippet_phase(assessor_code: str, responses: pd.DataFrame) -> bool:
     with st.form(key=f"snippet_{item_id}", clear_on_submit=True):
         realistic = st.radio(
             "Is this an internally consistent and realistic potential description that could describe a patient's symptoms?",
-            ["Internally consistent", "Internally inconsistent and not at all realistic"],
+            ["Internally consistent", "Internally inconsistent and unrealistic"],
             index=None,
             horizontal=True,
         )
